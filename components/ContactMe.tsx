@@ -32,8 +32,8 @@ const ContactMe = ({ pageInfo }: Props) => {
 
         <div className="flex flex-col space-y-10">
             <h4 className="text-3xl md:text-4xl font-semibold text-center">
-                I have got just what you need. {" "}
-                <span className="decoration-emerald-300/50 underline">Let&apos;s Talk.</span>
+                Tell me about your project. {" "}
+                <span className="decoration-emerald-300/50 underline">Let&apos;s chat.</span>
             </h4>
 
             <div className="space-y-10">

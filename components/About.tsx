@@ -40,7 +40,7 @@ const About = ({ pageInfo }: Props) => {
                 <h4 className="text-3xl md:text-4xl font-semibold text-center">
                     Here is a {" "}
                     <span className="underline decoration-emerald-300/50">little</span>{" "}
-                    background
+                    info
                 </h4>
 
                 <p>
