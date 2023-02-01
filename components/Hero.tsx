@@ -21,12 +21,12 @@ const Hero = ({ pageInfo }: Props) => {
         <div className="hidden lg:block border-2 border-emerald-300 w-[20vw] h-auto border-l-0 border-t-0 rotate-[135deg]"></div>
         <div>
           <img src={urlFor(pageInfo?.heroImage).url()} alt={pageInfo?.name} 
-            className="relative rounded-full h-32 w-32 mx-auto object-cover mb-2" 
+            className="relative rounded-full h-32 w-32 mx-auto object-cover mb-7" 
           
           />
 
           <div className="z-20">
-            <h2 className="text-sm uppercase text-gray-500 py-2 tracking-[15px]">
+            <h2 className="text-sm uppercase text-gray-500 mb-4 tracking-[15px]">
               {pageInfo?.role}
             </h2>
 
