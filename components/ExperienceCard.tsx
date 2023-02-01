@@ -25,7 +25,7 @@ const ExperienceCard = ({ experience }: Props) => {
             src={urlFor(experience?.companyImage).url()}
         />
 
-        <div className="px-10 md:px-5 space-y-2 md:space-y-3 overflow-auto
+        <div className="px-12 md:px-5 space-y-2 md:space-y-3 overflow-auto
             scrollbar-thin scrollbar-track-black scrollbar-thumb-emerald-300/80">
             <h4 className="text-2xl md:text-4 xl font-light">{experience?.jobTitle}</h4>
             <p className="font-bold text-xl md:text-2xl my-2">{experience?.company}</p>
