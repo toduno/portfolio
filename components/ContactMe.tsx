@@ -46,10 +46,10 @@ const ContactMe = ({ pageInfo }: Props) => {
 
             <form 
                 onSubmit={handleSubmit(onSubmit)}
-                className="flex flex-col space-y-2 w-fit mx-auto justify-center">
+                className="flex flex-col space-y-2 max-w-[90vw] md:w-fit mx-auto justify-center">
                 <div className="flex space-x-2">
-                    <input {...register('name')} placeholder="Name" type="text" className="contactInput" />
-                    <input {...register('email')}  placeholder="Email" type="email" className="contactInput" />
+                    <input {...register('name')} placeholder="Name" type="text" className="contactInput max-w-[44vw] md:w-fit" />
+                    <input {...register('email')}  placeholder="Email" type="email" className="contactInput max-w-[44vw] md:w-fit" />
                 </div>
 
                 <input {...register('subject')}  placeholder="Subject" type="text" className="contactInput" />

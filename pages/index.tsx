@@ -69,7 +69,7 @@ const Home = ({ pageInfo, experiences, projects, skills, socials }: Props) => {
         </section>
 
         {/* Contact Me */}
-        <section id='contact' className='snap-start w-[80%] md:w-full mx-auto'>
+        <section id='contact' className='snap-start w-[40%] md:w-full mx-auto'>
           <ContactMe pageInfo={pageInfo} />
         </section>
         
