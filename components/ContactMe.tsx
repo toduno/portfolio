@@ -56,7 +56,7 @@ const ContactMe = ({ pageInfo }: Props) => {
 
                 <textarea {...register('message')} placeholder="Message" className="contactInput" />
                 <button
-                  className="bg-emerald-300 py-3 md:py-5 px-10 rounded-md text-black font-bold text-lg">
+                  className="bg-emerald-300 hover:bg-emerald-200 active:bg-emerald-400 py-3 md:py-5 px-10 rounded-md text-black font-bold text-lg">
                     Submit
                 </button>
             </form>
